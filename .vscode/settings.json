@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell",
+        },
+        "python3-repl": {
+            "path": "python3",
+            "args": ["-q"]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "python.defaultInterpreterPath": "~/micromamba/envs/iolpy-dev/bin/python"
+
+}

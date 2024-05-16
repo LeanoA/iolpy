@@ -1,0 +1,1 @@
+_ROOT_URL_ = 'https://www.invertironline.com/mercado/cotizaciones/argentina'
