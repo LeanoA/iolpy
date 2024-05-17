@@ -1,0 +1,15 @@
+pandas
+numpy
+requests    
+requests_cache
+requests_ratelimiter
+multitasking
+lxml
+appdirs
+pytz
+frozendict
+beautifulsoup4
+html5lib
+openpyxl
+peewee
+scipy
