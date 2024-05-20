@@ -18,11 +18,14 @@ jobs:
       run:
         shell: bash -l {0} # required for conda env
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         variant:
           - {os: ubuntu-22.04}
         python-version: ["3.10"]
+    
+    permissions:
+      contents: read
 
     steps:
       - uses: action/checkout@v4
