@@ -39,4 +39,4 @@ jobs:
           create-args: python=${{ matrix.variant.python-version }}
     
       - run: tox -e import-minimal
-      - run: tox -e test
+      - run: tox
