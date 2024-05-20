@@ -26,6 +26,8 @@ jobs:
 
     steps:
       - uses: action/checkout@v4
+        with:
+          repository: LeanoA/iolpy
       
       - name: Setup conda environment
         uses: mamba-org/setup-micromamba@v1
