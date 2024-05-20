@@ -30,9 +30,7 @@ jobs:
     steps:
       - uses: action/checkout@v4
         with:
-          fetch-depth: true
-          repository: LeanoA/iolpy
-          ref: main
+          token: ${{ secrets.YOUR_CUSTOM_GITHUB_TOKEN }}
       
       - name: Setup conda environment
         uses: mamba-org/setup-micromamba@v1
