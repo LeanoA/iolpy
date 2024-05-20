@@ -1,4 +1,4 @@
-# Download market data! Educational Finance's API Project.
+# Download market data! Educational Scraping Project.
 
 The following project was made for educational purposes to extract stock values on the stock market from the Invertir Online website.
 
