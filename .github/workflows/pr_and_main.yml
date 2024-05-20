@@ -32,6 +32,7 @@ jobs:
         with:
           fetch-depth: true
           repository: LeanoA/iolpy
+          ref: main
       
       - name: Setup conda environment
         uses: mamba-org/setup-micromamba@v1
