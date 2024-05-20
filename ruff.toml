@@ -1,0 +1,27 @@
+# See https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#line-length
+# See ruff https://beta.ruff.rs/docs/
+
+select = [
+    "E", # pycodestyle
+    "F", # pyflakes
+    "B", # flake8-bugbear
+    "D", # Enable all `pydocstyle` rules, 
+    "PL",   # Enable pylint rules
+    "B904"    # raise-without-from-inside-except
+]
+
+ignore = [
+    "E203"    # whitespace-before-punctuation
+]
+
+exclude = [".*","__pycache__","build","dist","cmake-build*","install","tests"] 
+
+line-length = 120
+
+ignore-init-module-imports = true # Ignore `E402` errors for `__init__.py` files. (Unused imports)
+
+# Avoid trying to fix flake8-bugbear (`B`) violations.
+unfixable = ["B"]
+
+[pydocstyle]
+convention = "google"   # Use Google docstring style.
